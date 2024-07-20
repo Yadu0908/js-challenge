@@ -95,8 +95,8 @@ const myage = 27;
 let Person = {
     ['first'+'Name'] : firstName,
     ['last'+'Name'] : lastName,
-    ['myage'] : age,
-    ['isAdult'] : age >= 18      // extra 
+    ['myage'] : myage,
+    ['isAdult'] : myage >= 18      // extra 
 }
 console.log(Person);
 
